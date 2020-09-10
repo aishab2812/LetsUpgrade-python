@@ -1,0 +1,31 @@
+test_list = [1, 5, 6, 4, 1, 2, 3, 5] 
+
+sub_list = [1, 1, 5] 
+
+  
+# printing original lists 
+
+print (" listy: " + str(test_list)) 
+
+print ("sublist : " + str(sub_list)) 
+
+  
+# using all() to  
+# check subset of list  
+
+flag = 0
+
+if(all(x in test_list for x in sub_list)): 
+
+    flag = 1
+
+      
+# printing result 
+
+if (flag) : 
+
+    print ("Yes, its a match") 
+
+else : 
+
+    print ("No, its gone")

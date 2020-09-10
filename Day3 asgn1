@@ -1,0 +1,8 @@
+num=input("enter the altitude")
+num=int(num)
+if num<=1000:
+    print("LAND THE PLANE")
+if num<=5000:
+    print("Take plane down to 1000Ft")
+if num>=5000:
+    print("Turn around")
